@@ -1,0 +1,16 @@
+interface:
+  display_name: "退税税单助手"
+  short_description: "识别护照或其他证件，并查询关联退税税单列表与完整详情"
+  default_prompt: "使用 $refund-tax-skill 识别这张证件并查询关联的退税税单。"
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "refund-mcp-server"
+      description: "退税证照识别与税单查询 MCP 服务"
+      transport: "streamable_http"
+      url: "http://127.0.0.1:8081/mcp"
+
+policy:
+  allow_implicit_invocation: true
+

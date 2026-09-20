@@ -1,0 +1,18 @@
+{
+  "name": "refund-tax-skill",
+  "display_name": "退税税单助手",
+  "description": "通过 MCP 识别护照或其他证件，并查询关联的退税税单列表和完整详情。",
+  "version": "1.0.0",
+  "category": "退税服务",
+  "keywords": [
+    "证照识别",
+    "护照识别",
+    "退税",
+    "税单查询",
+    "退税申请单",
+    "tax refund",
+    "passport OCR",
+    "MCP"
+  ]
+}
+
